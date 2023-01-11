@@ -1,0 +1,684 @@
+*{
+    list-style: none;
+    max-width: 2048px;
+    max-height: 2048px;
+}
+body{
+    overflow: scroll;
+    margin: 0 auto;
+}
+.header{
+    height: 62px;
+    border-bottom: 2px solid #dedede;
+    border-color: #f5f5f5;
+    box-shadow: 0px 0px 1px gray;
+}
+.insideheader{
+    max-width: 1024px;
+    height: 62px;
+    margin: 0 230px;
+    position: relative;
+}
+.unorderedlist {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+    cursor: pointer;
+}
+.list, .list2{
+    display: inline;
+}
+.scarlet{
+    height: 0px;
+    width: 0px;
+}
+.header2{
+    background: #fff;
+    border-bottom: 2px solid gray;
+    box-shadow: 0px 0px 1px gray;
+    height: 87px;
+    width: 100%;
+    border-color: #fff;
+    position: fixed;
+}
+.insideheader2{
+    height: 87px;
+    margin: 0 230px;
+}
+.unorderedlist2{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    line-height: 1;
+}
+.face{
+    margin: 10px 30px;
+}
+.baseball{
+    margin: 4px 29px;
+}
+.games{
+    margin: 8px 21px;
+}
+.cards{
+    margin: 11px 21px;
+}
+.tv{
+    margin: 20px 25px;
+}
+.events{
+    margin: 9px 25px;
+}
+.news{
+    margin: 11px 25px;
+}
+button{
+    border: none;
+    cursor: pointer;
+}
+.artistdebut{
+    padding: 150px;
+    padding-bottom: inherit;
+    padding-right: inherit;
+    cursor: pointer;
+}
+.figurecaption1{
+    background-color: gray;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 1px;
+    width: 514px;
+    padding-left: 64px;
+    margin-left: 150px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    padding-bottom: 10px;
+    position: absolute;
+    cursor: pointer;
+}
+.paldeaimg{
+    width: 321px;
+    height: 182px;
+    margin-left: 736px;
+    position: relative;
+    margin-bottom: 97px;
+    padding-top: 0px;
+    margin-top: -285px;
+    padding-bottom: 20px;
+    cursor: pointer;
+}
+.Paldeah3{
+    font-family: Arial, Helvetica, sans-serif;
+    width: 285px;
+    height: 65px;
+    position: relative;
+    background-color: #b38aea;
+    color: white;
+    padding-top: 10px;
+    text-align: center;
+    margin-top: -120px;
+    margin-left: 735px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    border-bottom-left-radius: 7px;
+    border-bottom-right-radius: 7px;
+    cursor: pointer;
+}
+.crownzenith{
+    height: 155px;
+    position: relative;
+    margin-left: 737px;
+    margin-top: -13px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    width: 133px;
+    margin-bottom: 1px;
+    cursor: pointer;
+}
+.crownzenithh3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: blue;
+    color: white; 
+    width: 170px;
+    padding-left: 31px;
+    padding-bottom: 95px;
+    padding-top: 16px;
+    margin-top: -160px;
+    margin-left: 855px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+}
+.strategies{
+    width: 321px;
+    margin-left: 736px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+.strategiesh3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: darkslategray;
+    color: white;
+    width: 281px;
+    height: 65px;
+    padding-top: 10px;
+    margin-top: -4px;
+    margin-left: 736px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+}
+.season2{
+    height: 204px;
+    width: 255px;
+    position: absolute;
+    margin-left: 456px;
+    margin-top: -204px;
+    /* padding-bottom: 38px; */
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.season2h3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: orange;
+    color: white;
+    width: 226px;
+    height: 62px;
+    margin-top: -37px;
+    margin-left: 456px;
+    padding-right: 24px;
+    padding-left: 5px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.chespin{
+    height: 204px;
+    width: 265px;
+    position: absolute;
+    cursor: pointer;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    margin-top: -204px;
+    margin-left: 154px;
+}
+.chespinh3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: forestgreen;
+    color: white;
+    width: 226px;
+    height: 62px;
+    margin-top: -103px;
+    margin-left: 154px;
+    padding-right: 24px;
+    padding-left: 15px;
+    padding-top: 13px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.button{
+    display: inline;
+    margin-left: 200px;
+    padding-left: 50px;
+    padding-top: 12px;
+    padding-right: 50px;
+    padding-bottom: 12px;
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.btn1{
+    background-color: black;
+    color: gray;
+}
+.foongus{
+    width: 240px;
+    background-color: gray;
+    margin-top: -5px;
+    margin-left: -14px;
+    border: 3px solid;
+    opacity: 0.8;
+    position: absolute;
+    cursor: pointer;
+}
+.foongush3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    width: 121px;
+    margin-top: 238px;
+    margin-left: -14px;
+    padding-left: 35px;
+    padding-right: 90px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    position: absolute;
+    cursor: pointer;
+}
+.dewpider{
+    width: 240px;
+    background-color: gray;
+    margin-left: 230px;
+    margin-top: -5px;
+    position: relative;
+    border: 3px solid;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.dewpiderh3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    position: relative;
+    padding-left: 35px;
+    padding-right: 90px;
+    padding-top: 24px;
+    padding-bottom: 18px;
+    margin-top: -4px;
+    margin-left: 232px;
+    width: 119px;
+    cursor: pointer;
+}
+.incineroar{
+    width: 291px;
+    background-color: gray;
+    position: absolute;
+    border: 3px solid;
+    opacity: 0.8;
+    margin-left: 474px;
+    margin-top: -375px;
+    cursor: pointer;
+}
+.incineroarh3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    /* opacity: 0.8; */
+    position: absolute;
+    margin-left: 473px;
+    margin-top: -84px;
+    padding-left: 39px;
+    padding-bottom: 45px;
+    padding-top: 28px;
+    padding-right: 10px;
+    word-spacing: 122px;
+    cursor: pointer;
+}
+.powers{
+    background-color: black;
+    color: white;
+    /* opacity: 0.8; */
+    position: absolute;
+    padding-left: 37px;
+    padding-bottom: 23px;
+    padding-top: 28px;
+    padding-right: 43px;
+    margin-left: 473px;
+    margin-top: -70px;
+    word-spacing: 48px;
+    cursor: pointer;
+}
+.fire{
+    background-color: orange;
+    color: white;
+    padding: 6px 6px;
+}
+.dark{
+    background-color: gray;
+    color: white;
+    padding: 6px 6px;
+}
+.cyrogonal{
+    width: 240px;
+    background-color: gray;
+    margin-left: 771px;
+    margin-top: -380px;
+    position: absolute;
+    border: 3px solid;
+    opacity: 0.8;
+    cursor: pointer;
+}
+.cyrogonalh3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    position: absolute;
+    padding-left: 35px;
+    padding-right: 92px;
+    padding-top: 24px;
+    padding-bottom: 18px;
+    margin-top: -134px;
+    margin-left: 771px;
+    width: 119px;
+    cursor: pointer;
+}
+.swoobat{
+    width: 240px;
+    background-color: gray;
+    margin-left: 1015px;
+    margin-top: -383px;
+    position: absolute;
+    border: 3px solid;
+    opacity: 0.8;
+    padding-bottom: 2px;
+    cursor: pointer;
+}
+.swoobath3{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: white;
+    opacity: 0.8;
+    position: absolute;
+    padding-left: 35px;
+    padding-right: 92px;
+    padding-top: 25px;
+    padding-bottom: 19px;
+    margin-top: -136px;
+    margin-left: 1015px;
+    width: 119px;
+    cursor: pointer;
+}
+.btn2{
+    background-color: black;
+    color: white;
+    margin-left: 838px;
+    padding-top: 12px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 12px;
+    width: 195px;
+    border-radius: 5px;
+}
+.footer{
+    color: gray;
+    width: 160px;
+    position: absolute;
+    font-size: 29px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 560px;
+    margin-top: 415px;
+}
+.swordandshield{
+    width: 258px;
+    margin-left: 470px;
+    cursor: pointer;
+}
+.figcaption12{
+    background-color: #313131;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 223px;
+    margin-top: -4px;
+    margin-left: 470px;
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 3px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.swordandshieldh3{
+    color: white;
+    cursor: pointer;
+}
+.swordandshieldp{
+    color: lightgrey;
+    cursor: pointer;
+}
+.raidbattles{
+    width: 255px;
+    margin-left: 738px;
+    margin-top: -353px;
+    position: absolute;
+    cursor: pointer;
+}
+.figcaption13{
+    background-color: #4dad5b;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: -209px;
+    margin-left: 738px;
+    width: 217px;
+    padding-left: 20px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.raidbattlesh3{
+    color: white;
+    cursor: pointer;
+}
+.reshiram{
+    width: 255px;
+    margin-left: 738px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+.figcaption14{
+    background-color: #a4a4a4;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-left: 738px;
+    margin-top: -4px;
+    width: 217px;
+    padding-left: 20px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.reshiramp{
+    color: dimgray;
+    cursor: pointer;
+}
+.news2{
+    margin-left: 780px;
+    margin-top: 191px;
+    width: 147px;
+    cursor: pointer;
+}
+.newsh3{
+    background-color: #ee6b2f;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin-right: -106px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    cursor: pointer;
+}
+.newsp{
+    background-color: #30a7d7;
+    margin-top: -19px;
+    margin-right: -106px;
+    padding-left: 20px;
+    padding-top: 14px;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 35px;
+    cursor: pointer;
+}
+.dragapult{
+    width: 258px;
+    margin-left: 466px;
+    margin-top: -377px;
+    position: absolute;
+    cursor: pointer;
+}
+.figcaption15{
+    background-color: #c7aa79;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    width: 223px;
+    margin-top: -231px;
+    margin-left: 466px;
+    padding-top: 3px;
+    padding-left: 20px;
+    padding-right: 15px;
+    padding-bottom: 17px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.dragapulth3{
+    color: white;
+    cursor: pointer;
+}
+.season2-2{
+    width: 255px;
+    position: absolute;
+    margin-top: -850px;
+    margin-left: 206px;
+    cursor: pointer;
+}
+.figcaption16{
+    background-color: #e6bc2f;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: -706px;
+    margin-left: 206px;
+    width: 217px;
+    padding-left: 20px;
+    padding-right: 18px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.season2-2h3{
+    color: white;
+}
+.sinnoh{
+    width: 255px;
+    position: absolute;
+    margin-top: -461px;
+    margin-left: 206px;
+    cursor: pointer;
+}
+.figcaption17{
+    background-color: #30a7d7;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    margin-top: -317px;
+    margin-left: 206px;
+    width: 217px;
+    padding-left: 20px;
+    padding-right: 18px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+}
+.sinnohh3{
+    color: white;
+    cursor: pointer;
+}
+.footerend{
+    background-color: black;
+    margin-top: 121px;
+    padding-bottom: 34px;
+    width: 265px;
+    opacity: 0.8;
+    padding-left: 236px;
+    border-right: 3px solid black;
+}
+.footerendh3{
+    color: white;
+    padding-top: 40px;
+    /* margin-left: 220px; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+.unorderedlist2{
+    color: gray;
+    display: block;
+    list-style: bullets;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 22px;
+}
+.footerend2{
+    background-color: black;
+    width: 285px;
+    opacity: 0.8;
+    position: absolute;
+    margin-left: 504px;
+    margin-top: -269px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-bottom: 209px;
+}
+.unorderedlist3{
+    width: 10px;
+    display: inline;
+}
+.facebook{
+    width: 30px;
+    padding-top: 4px;
+}
+.pinterest{
+    width: 30px;
+    padding-top: 4px; 
+}
+.twitter{
+    width: 30px;
+    padding-top: 4px;
+}
+.instagram{
+    width: 30px;
+}
+.youtube{
+    width: 30px;
+    padding-top: 4px;
+    padding-bottom: 3px;
+}
+.footerend3{
+    background-color: black;
+    opacity: 0.8;
+    background-color: black;
+    margin-top: -269px;
+    padding-bottom: 26px;
+    width: 265px;
+    opacity: 0.8;
+    padding-left: 236px;
+    border-right: 3px solid black;
+    margin-left: 809px;
+}
+.coppa{
+    width: 130px;
+    padding-top: 100px;
+    margin-left: -145px;
+    border-radius: 3px 3px;
+}
+.unorderedlist4{
+    color: gray;
+    margin-top: -69px;
+    text-decoration: underline;
+    margin-left: -20px;
+}
+.endp{
+    color: gray;
+    margin-left: -242px;
+}
